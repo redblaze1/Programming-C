@@ -1,0 +1,12 @@
+請分開三個檔案方式設計一類別Score，data fields為name:string, math:int，請設計建構者和set
+主程式建立兩個Score物件score1和score2，分別為John 90, Mary 80，然後輸入2組參數，修改score1及score2的名字、成績(第一個改名字，第二個改成績)
+
+
+輸入：
+Jerry 90
+Mary 85
+
+
+輸出：
+Jerry 90
+Mary 85

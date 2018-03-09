@@ -1,0 +1,14 @@
+請以物件設計BMI，data fields(都是private): string name, double weight, double height，function
+BMI = weight / (height*height)。
+
+輸入name、weight、height後，將name和BMI輸出。
+
+主程式建立"John 80 1.7", 最後輸出姓名和BMI。
+不論 BMI 是否為整數，請輸出到小數點後兩位。
+
+範例輸入：
+
+John 80 1.7
+
+範例輸出：
+John 27.68
