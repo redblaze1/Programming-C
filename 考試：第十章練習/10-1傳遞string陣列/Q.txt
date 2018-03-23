@@ -1,0 +1,9 @@
+根據範例10-1 ExtractWords.cpp將輸入一段文字一空白隔開，存入一維string陣列(string word[10])。並且輸出功能要寫成printStringArray(string word[], int size)。
+
+範例輸入：
+Programming is fun
+
+範例輸出： 
+Programming 
+is 
+fun
