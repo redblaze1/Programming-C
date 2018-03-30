@@ -8,7 +8,7 @@ double sum(Rectangle circleArray[], int size) {
 	double sum = 0;
 
 	// Add areas to sum
-	for (int i = 1; i < size; i += 2)
+	for (int i = 0; i < size; i++)
 		sum += circleArray[i].getArea();
 	return sum;
 }
