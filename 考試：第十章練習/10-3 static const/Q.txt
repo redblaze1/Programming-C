@@ -1,0 +1,11 @@
+請參考範例10-8 TestCircleWithStaticDataFields.cpp和10-10 CircleWithConstantMemberFunctions.cpp, 讓Rectangle具有const和static功能。 
+要求：static int numOfRect紀錄長方形的個數, getLength(), getArea()為const。 
+輸入3組寬長建立3個長方形，輸出各個長方形的寬、長和面積，最後輸出總共有幾個長方形。
+
+範例輸入：1 2 2 3 3 4
+
+範例輸出：
+1 2 2 
+2 3 6 
+3 4 12 
+3 Rectangles
