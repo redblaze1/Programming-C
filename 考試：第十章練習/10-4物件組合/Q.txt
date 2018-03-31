@@ -16,7 +16,7 @@
      void  : print()
 
 主程式建立兩個Student物件 student1 和 student2
-分別為 John  3 25 1990 90, 
+分別為 John  3 25 1990 90,
        Mary 12  1 1993 80,
 然後輸入名字和生日，
 修改student1的名字 和
