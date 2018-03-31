@@ -1,0 +1,12 @@
+利用Deitel範例10.8之Date類別，參考Deitel範例10.10，10.11的用法。
+請分開五個檔案方式設計一類別Student，data fields為name:string, birthDay:Date(月日年), score:int，
+請設計建構者和setName, setDate, setScore, getName, getDate, getScore, print。
+主程式建立兩個Student物件student1和student2，分別為John 3 25 1990 90, Mary 12 1 1993 80，
+然後輸入名字和生日，修改student1的名字和修改student2的生日，最後利用物件的print輸出。
+
+範例輸入：
+Jerry 5 14 1991
+
+範例輸出：
+Jerry 3/25/1990 90
+Mary 5/14/1991 80
