@@ -1,0 +1,13 @@
+利用程式12.7 ImproveStack.h和程式12.5 TestGenericStack.cpp的使用方式。
+輸入9個字元push到Stack（以字元處理），然後pop三個後，以中間的符號運算，將結果push回Stack。
+重複此動作直到Stack空了，最後數字為結果。
+
+範例輸入：
+7-9/9-3*2
+
+範例輸出：
+6
+3
+3
+4
+
