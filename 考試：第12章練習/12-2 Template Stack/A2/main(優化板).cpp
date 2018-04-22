@@ -19,7 +19,10 @@ int main(){
 
     for(int i = 0; i < size; i++)
     stringStack.push(cstr[i]);
-    for(;(size%3) != 0;size++);
+    
+    
+    for(;(size%3) != 0;size++);     //fix size remainder problem
+    
     
     // while (!stringStack.empty()){
     for(int i=1;i<=size/3+1;i++){
