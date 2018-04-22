@@ -48,7 +48,7 @@ int main(){
         d += 0x30;  //convert d to ascii code
 
         // printf("test b: %c\n", b);              //debug
-        // printf("test c*a: %d%c%d\n", c,b,a);    //debug
+        // printf("test c(?)a: %d%c%d\n", c,b,a);    //debug
         stringStack.push(d);
 
     }
