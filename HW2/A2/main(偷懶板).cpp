@@ -29,27 +29,22 @@ int main(){
     string name;
     bool sex;
     int month,date,year;
-    Stucard st[5];
 
     double score[3] = {80.0, 70.0, 90.0};
     Date stdate(3, 20, 1997);
-    st[0].setDate(stdate); st[0].setName("Jerry"); st[0].setSex(1); st[0].setScore(3,score);
-    // Stucard st1("Jerry",1,score,stdate);
+    Stucard st1("Jerry",1,score,stdate);
 
     score[0] = 85.0; score[1] = 77.0; score[2] = 95.0;
     stdate.setDate(5, 20, 1995);
-    st[1].setDate(stdate); st[1].setName("John"); st[1].setSex(1); st[1].setScore(3,score);
-    // Stucard st2("John",1,score,stdate);
+    Stucard st2("John",1,score,stdate);
 
     score[0] = 83.0; score[1] = 75.0; score[2] = 70.0;
     stdate.setDate(2, 18, 2007);
-    st[2].setDate(stdate); st[2].setName("Mary"); st[2].setSex(0); st[2].setScore(3,score);
-    // Stucard st3("Mary",0,score,stdate);
+    Stucard st3("Mary",0,score,stdate);
 
     score[0] = 73.0; score[1] = 95.0; score[2] = 67.0;
     stdate.setDate(11, 8, 2003);
-    st[3].setDate(stdate); st[3].setName("Tom"); st[3].setSex(1); st[3].setScore(3,score);
-    // Stucard st4("Tom",1,score,stdate);
+    Stucard st4("Tom",1,score,stdate);
 
     cin >> name >> sex;
     for( int i = 0; i < 3; i++)
@@ -57,11 +52,13 @@ int main(){
     cin >> month >> date >> year;
     
     stdate.setDate(month, date, year);
-    st[4].setDate(stdate); st[4].setName(name); st[4].setSex(sex); st[4].setScore(3,score);
-    
-    for(int i = 0; i < 5; i++ )
-    st[i].printCard();
-    double *aves = classAver(st,5);
-    printf("Average: %.1f, %.1f, %.1f\n", aves[0], aves[1], aves[2]);
-    
-    }
+    Stucard st5(name,sex,score,stdate);
+
+    st1.printCard();
+    st2.printCard();
+    st3.printCard();
+    st4.printCard();
+    st5.printCard();
+
+    printf("Average: %.1f, %.1f, %.1f\n", classAver(st1,st2,st3,st4,st5,0), classAver(st1,st2,st3,st4,st5,1), classAver(st1,st2,st3,st4,st5,2));
+}
