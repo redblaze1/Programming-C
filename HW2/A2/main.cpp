@@ -21,7 +21,7 @@ double classAver(Stucard st1, Stucard st2, Stucard st3, Stucard st4, Stucard st5
 }
 
 int main(){
-    //I am too lazy to write class....,but it can't do because must be calculate class aver....
+    //I am too lazy to write class....,but that can't do because must be calculate class aver....
     // cout << "Jerry, 1, 80.0, 70.0, 90.0, 3/20/1997" << endl;
     // cout << "John, 1, 85.0, 77.0, 95.0, 5/20/1995" << endl;
     // cout << "Mary, 0, 83.0, 75.0, 70.0, 2/18/2007" << endl;
